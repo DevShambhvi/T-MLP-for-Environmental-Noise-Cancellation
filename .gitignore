@@ -1,0 +1,35 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Audio Datasets (excluded to keep repository lightweight; download separately as described in README)
+data/*
+!data/speech/.gitkeep
+!data/noise/.gitkeep
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
