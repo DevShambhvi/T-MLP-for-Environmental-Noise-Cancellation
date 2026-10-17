@@ -1,0 +1,43 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+._*
+
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Raw datasets
+data/speech/
+data/noise/
+processed_data/
+
+# *.keras
+# *.weights.h5
+
+# Python packaging and build artifacts
+build/
+dist/
+*.egg-info/
